@@ -1,1 +1,2 @@
 # hyprcfg
+go away
