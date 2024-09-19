@@ -134,7 +134,6 @@
             "disk",
             "cpu",
             "memory",
-            "hyprland/language"
         ]
     },
 "hyprland/language": {
@@ -185,6 +184,17 @@
         // "format-full": "",
         "format-icons": [" ", " ", " ", " ", " "]
     },
+    
+    // Backlight
+        "backlight": {
+            "device": "intel_backlight",
+            "interval": 1,
+            "on-scroll-down": "brightnessctl s 10-",
+            "on-scroll-up": "brightnessctl s 10+",
+            "format": "{icon} {percent}%",
+            "format-icons": ["", ""],
+            "on-click": "wdisplays"
+        },
 
     // Pulseaudio
     "pulseaudio": {
